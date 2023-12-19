@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0932B3372ABC77F3001224A6 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932B3362ABC77F3001224A6 /* TimePickerView.swift */; };
+		094175252AFE773C00CC61F7 /* NapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA6E5E2AE9F9AB004F452D /* NapButton.swift */; };
+		094175262AFE7A2700CC61F7 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998C1DC2ACB0652006BD5FD /* CircularProgressView.swift */; };
+		094175272AFE7A2C00CC61F7 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998C1DA2ABCC48B006BD5FD /* TimerViewModel.swift */; };
+		094175282AFE7A4500CC61F7 /* StartButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998C1E22ACB541B006BD5FD /* StartButtonStyle.swift */; };
+		094175292AFE7A5600CC61F7 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932B3362ABC77F3001224A6 /* TimePickerView.swift */; };
+		0941752B2AFE7AAC00CC61F7 /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941752A2AFE7AAC00CC61F7 /* CommonView.swift */; };
+		0941752C2AFE7AAC00CC61F7 /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941752A2AFE7AAC00CC61F7 /* CommonView.swift */; };
 		09621A6E2AB9CC8700764CC5 /* Cat_NapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09621A6D2AB9CC8700764CC5 /* Cat_NapApp.swift */; };
 		09621A702AB9CC8700764CC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09621A6F2AB9CC8700764CC5 /* ContentView.swift */; };
 		09621A722AB9CC8900764CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09621A712AB9CC8900764CC5 /* Assets.xcassets */; };
@@ -15,6 +22,24 @@
 		09621A802AB9CC8900764CC5 /* Cat_NapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09621A7F2AB9CC8900764CC5 /* Cat_NapTests.swift */; };
 		09621A8A2AB9CC8900764CC5 /* Cat_NapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09621A892AB9CC8900764CC5 /* Cat_NapUITests.swift */; };
 		09621A8C2AB9CC8900764CC5 /* Cat_NapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09621A8B2AB9CC8900764CC5 /* Cat_NapUITestsLaunchTests.swift */; };
+		0962A1932AF66D6900D689C4 /* CatNap_ClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0962A1922AF66D6900D689C4 /* CatNap_ClipApp.swift */; };
+		0962A1952AF66D6900D689C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0962A1942AF66D6900D689C4 /* ContentView.swift */; };
+		0962A1972AF66D6A00D689C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0962A1962AF66D6A00D689C4 /* Assets.xcassets */; };
+		0962A19A2AF66D6A00D689C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0962A1992AF66D6A00D689C4 /* Preview Assets.xcassets */; };
+		0962A1A62AF66D6B00D689C4 /* CatNap_ClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0962A1A52AF66D6B00D689C4 /* CatNap_ClipTests.swift */; };
+		0962A1B02AF66D6B00D689C4 /* CatNap_ClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0962A1AF2AF66D6B00D689C4 /* CatNap_ClipUITests.swift */; };
+		0962A1B22AF66D6B00D689C4 /* CatNap_ClipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0962A1B12AF66D6B00D689C4 /* CatNap_ClipUITestsLaunchTests.swift */; };
+		0962A1B52AF66D6B00D689C4 /* CatNap Clip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 0962A1902AF66D6900D689C4 /* CatNap Clip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0963337D2AE4043B00DB179E /* Naps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0963337C2AE4043B00DB179E /* Naps.swift */; };
+		0963337F2AE4046700DB179E /* Alarms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0963337E2AE4046700DB179E /* Alarms.swift */; };
+		0998C1DB2ABCC48B006BD5FD /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998C1DA2ABCC48B006BD5FD /* TimerViewModel.swift */; };
+		0998C1DD2ACB0652006BD5FD /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998C1DC2ACB0652006BD5FD /* CircularProgressView.swift */; };
+		0998C1E02ACB08E3006BD5FD /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998C1DF2ACB08E3006BD5FD /* Int+Extension.swift */; };
+		0998C1E32ACB541B006BD5FD /* StartButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998C1E22ACB541B006BD5FD /* StartButtonStyle.swift */; };
+		0998C1E52ACE0FA2006BD5FD /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998C1E42ACE0FA2006BD5FD /* CurrentTime.swift */; };
+		0998C1E72AD495F1006BD5FD /* AlarmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0998C1E62AD495F1006BD5FD /* AlarmList.swift */; };
+		09FA6E5D2AE9F532004F452D /* AlarmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA6E5C2AE9F532004F452D /* AlarmButton.swift */; };
+		09FA6E5F2AE9F9AB004F452D /* NapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA6E5E2AE9F9AB004F452D /* NapButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +57,46 @@
 			remoteGlobalIDString = 09621A692AB9CC8700764CC5;
 			remoteInfo = "Cat Nap";
 		};
+		0962A1A22AF66D6B00D689C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09621A622AB9CC8600764CC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0962A18F2AF66D6900D689C4;
+			remoteInfo = "CatNap Clip";
+		};
+		0962A1AC2AF66D6B00D689C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09621A622AB9CC8600764CC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0962A18F2AF66D6900D689C4;
+			remoteInfo = "CatNap Clip";
+		};
+		0962A1B32AF66D6B00D689C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09621A622AB9CC8600764CC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0962A18F2AF66D6900D689C4;
+			remoteInfo = "CatNap Clip";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0962A1B62AF66D6B00D689C4 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				0962A1B52AF66D6B00D689C4 /* CatNap Clip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0932B3362ABC77F3001224A6 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		0941752A2AFE7AAC00CC61F7 /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
 		09621A6A2AB9CC8700764CC5 /* Cat Nap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Nap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09621A6D2AB9CC8700764CC5 /* Cat_NapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_NapApp.swift; sourceTree = "<group>"; };
 		09621A6F2AB9CC8700764CC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +108,28 @@
 		09621A852AB9CC8900764CC5 /* Cat NapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat NapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09621A892AB9CC8900764CC5 /* Cat_NapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_NapUITests.swift; sourceTree = "<group>"; };
 		09621A8B2AB9CC8900764CC5 /* Cat_NapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_NapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0962A1902AF66D6900D689C4 /* CatNap Clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CatNap Clip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0962A1922AF66D6900D689C4 /* CatNap_ClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNap_ClipApp.swift; sourceTree = "<group>"; };
+		0962A1942AF66D6900D689C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0962A1962AF66D6A00D689C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0962A1992AF66D6A00D689C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0962A19B2AF66D6A00D689C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0962A19C2AF66D6A00D689C4 /* CatNap_Clip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CatNap_Clip.entitlements; sourceTree = "<group>"; };
+		0962A1A12AF66D6B00D689C4 /* CatNap ClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CatNap ClipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0962A1A52AF66D6B00D689C4 /* CatNap_ClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNap_ClipTests.swift; sourceTree = "<group>"; };
+		0962A1AB2AF66D6B00D689C4 /* CatNap ClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CatNap ClipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0962A1AF2AF66D6B00D689C4 /* CatNap_ClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNap_ClipUITests.swift; sourceTree = "<group>"; };
+		0962A1B12AF66D6B00D689C4 /* CatNap_ClipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNap_ClipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0963337C2AE4043B00DB179E /* Naps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naps.swift; sourceTree = "<group>"; };
+		0963337E2AE4046700DB179E /* Alarms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarms.swift; sourceTree = "<group>"; };
+		0998C1DA2ABCC48B006BD5FD /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		0998C1DC2ACB0652006BD5FD /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		0998C1DF2ACB08E3006BD5FD /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		0998C1E22ACB541B006BD5FD /* StartButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonStyle.swift; sourceTree = "<group>"; };
+		0998C1E42ACE0FA2006BD5FD /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
+		0998C1E62AD495F1006BD5FD /* AlarmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmList.swift; sourceTree = "<group>"; };
+		09FA6E5C2AE9F532004F452D /* AlarmButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmButton.swift; sourceTree = "<group>"; };
+		09FA6E5E2AE9F9AB004F452D /* NapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NapButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +154,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0962A18D2AF66D6900D689C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0962A19E2AF66D6B00D689C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0962A1A82AF66D6B00D689C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +184,9 @@
 				09621A6C2AB9CC8700764CC5 /* Cat Nap */,
 				09621A7E2AB9CC8900764CC5 /* Cat NapTests */,
 				09621A882AB9CC8900764CC5 /* Cat NapUITests */,
+				0962A1912AF66D6900D689C4 /* CatNap Clip */,
+				0962A1A42AF66D6B00D689C4 /* CatNap ClipTests */,
+				0962A1AE2AF66D6B00D689C4 /* CatNap ClipUITests */,
 				09621A6B2AB9CC8700764CC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +197,9 @@
 				09621A6A2AB9CC8700764CC5 /* Cat Nap.app */,
 				09621A7B2AB9CC8900764CC5 /* Cat NapTests.xctest */,
 				09621A852AB9CC8900764CC5 /* Cat NapUITests.xctest */,
+				0962A1902AF66D6900D689C4 /* CatNap Clip.app */,
+				0962A1A12AF66D6B00D689C4 /* CatNap ClipTests.xctest */,
+				0962A1AB2AF66D6B00D689C4 /* CatNap ClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +207,22 @@
 		09621A6C2AB9CC8700764CC5 /* Cat Nap */ = {
 			isa = PBXGroup;
 			children = (
+				0963337B2AE4041400DB179E /* tabs */,
+				0998C1E12ACB5400006BD5FD /* ButtonStyles */,
+				0998C1DE2ACB08C5006BD5FD /* Extensions */,
 				09621A6D2AB9CC8700764CC5 /* Cat_NapApp.swift */,
 				09621A6F2AB9CC8700764CC5 /* ContentView.swift */,
 				09621A712AB9CC8900764CC5 /* Assets.xcassets */,
 				09621A732AB9CC8900764CC5 /* Cat_Nap.entitlements */,
 				09621A742AB9CC8900764CC5 /* Preview Content */,
 				0932B3362ABC77F3001224A6 /* TimePickerView.swift */,
+				0998C1DA2ABCC48B006BD5FD /* TimerViewModel.swift */,
+				09FA6E5C2AE9F532004F452D /* AlarmButton.swift */,
+				0998C1DC2ACB0652006BD5FD /* CircularProgressView.swift */,
+				0998C1E42ACE0FA2006BD5FD /* CurrentTime.swift */,
+				0998C1E62AD495F1006BD5FD /* AlarmList.swift */,
+				09FA6E5E2AE9F9AB004F452D /* NapButton.swift */,
+				0941752A2AFE7AAC00CC61F7 /* CommonView.swift */,
 			);
 			path = "Cat Nap";
 			sourceTree = "<group>";
@@ -132,6 +252,69 @@
 			path = "Cat NapUITests";
 			sourceTree = "<group>";
 		};
+		0962A1912AF66D6900D689C4 /* CatNap Clip */ = {
+			isa = PBXGroup;
+			children = (
+				0962A1922AF66D6900D689C4 /* CatNap_ClipApp.swift */,
+				0962A1942AF66D6900D689C4 /* ContentView.swift */,
+				0962A1962AF66D6A00D689C4 /* Assets.xcassets */,
+				0962A19B2AF66D6A00D689C4 /* Info.plist */,
+				0962A19C2AF66D6A00D689C4 /* CatNap_Clip.entitlements */,
+				0962A1982AF66D6A00D689C4 /* Preview Content */,
+			);
+			path = "CatNap Clip";
+			sourceTree = "<group>";
+		};
+		0962A1982AF66D6A00D689C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0962A1992AF66D6A00D689C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0962A1A42AF66D6B00D689C4 /* CatNap ClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				0962A1A52AF66D6B00D689C4 /* CatNap_ClipTests.swift */,
+			);
+			path = "CatNap ClipTests";
+			sourceTree = "<group>";
+		};
+		0962A1AE2AF66D6B00D689C4 /* CatNap ClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0962A1AF2AF66D6B00D689C4 /* CatNap_ClipUITests.swift */,
+				0962A1B12AF66D6B00D689C4 /* CatNap_ClipUITestsLaunchTests.swift */,
+			);
+			path = "CatNap ClipUITests";
+			sourceTree = "<group>";
+		};
+		0963337B2AE4041400DB179E /* tabs */ = {
+			isa = PBXGroup;
+			children = (
+				0963337C2AE4043B00DB179E /* Naps.swift */,
+				0963337E2AE4046700DB179E /* Alarms.swift */,
+			);
+			path = tabs;
+			sourceTree = "<group>";
+		};
+		0998C1DE2ACB08C5006BD5FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0998C1DF2ACB08E3006BD5FD /* Int+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0998C1E12ACB5400006BD5FD /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				0998C1E22ACB541B006BD5FD /* StartButtonStyle.swift */,
+			);
+			path = ButtonStyles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,10 +325,12 @@
 				09621A662AB9CC8700764CC5 /* Sources */,
 				09621A672AB9CC8700764CC5 /* Frameworks */,
 				09621A682AB9CC8700764CC5 /* Resources */,
+				0962A1B62AF66D6B00D689C4 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0962A1B42AF66D6B00D689C4 /* PBXTargetDependency */,
 			);
 			name = "Cat Nap";
 			productName = "Cat Nap";
@@ -188,6 +373,59 @@
 			productReference = 09621A852AB9CC8900764CC5 /* Cat NapUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0962A18F2AF66D6900D689C4 /* CatNap Clip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0962A1BD2AF66D6B00D689C4 /* Build configuration list for PBXNativeTarget "CatNap Clip" */;
+			buildPhases = (
+				0962A18C2AF66D6900D689C4 /* Sources */,
+				0962A18D2AF66D6900D689C4 /* Frameworks */,
+				0962A18E2AF66D6900D689C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CatNap Clip";
+			productName = "CatNap Clip";
+			productReference = 0962A1902AF66D6900D689C4 /* CatNap Clip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		0962A1A02AF66D6B00D689C4 /* CatNap ClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0962A1BE2AF66D6B00D689C4 /* Build configuration list for PBXNativeTarget "CatNap ClipTests" */;
+			buildPhases = (
+				0962A19D2AF66D6B00D689C4 /* Sources */,
+				0962A19E2AF66D6B00D689C4 /* Frameworks */,
+				0962A19F2AF66D6B00D689C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0962A1A32AF66D6B00D689C4 /* PBXTargetDependency */,
+			);
+			name = "CatNap ClipTests";
+			productName = "CatNap ClipTests";
+			productReference = 0962A1A12AF66D6B00D689C4 /* CatNap ClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0962A1AA2AF66D6B00D689C4 /* CatNap ClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0962A1BF2AF66D6B00D689C4 /* Build configuration list for PBXNativeTarget "CatNap ClipUITests" */;
+			buildPhases = (
+				0962A1A72AF66D6B00D689C4 /* Sources */,
+				0962A1A82AF66D6B00D689C4 /* Frameworks */,
+				0962A1A92AF66D6B00D689C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0962A1AD2AF66D6B00D689C4 /* PBXTargetDependency */,
+			);
+			name = "CatNap ClipUITests";
+			productName = "CatNap ClipUITests";
+			productReference = 0962A1AB2AF66D6B00D689C4 /* CatNap ClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,7 +433,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					09621A692AB9CC8700764CC5 = {
@@ -208,6 +446,17 @@
 					09621A842AB9CC8900764CC5 = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = 09621A692AB9CC8700764CC5;
+					};
+					0962A18F2AF66D6900D689C4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0962A1A02AF66D6B00D689C4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0962A18F2AF66D6900D689C4;
+					};
+					0962A1AA2AF66D6B00D689C4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0962A18F2AF66D6900D689C4;
 					};
 				};
 			};
@@ -227,6 +476,9 @@
 				09621A692AB9CC8700764CC5 /* Cat Nap */,
 				09621A7A2AB9CC8900764CC5 /* Cat NapTests */,
 				09621A842AB9CC8900764CC5 /* Cat NapUITests */,
+				0962A18F2AF66D6900D689C4 /* CatNap Clip */,
+				0962A1A02AF66D6B00D689C4 /* CatNap ClipTests */,
+				0962A1AA2AF66D6B00D689C4 /* CatNap ClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +507,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0962A18E2AF66D6900D689C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0962A19A2AF66D6A00D689C4 /* Preview Assets.xcassets in Resources */,
+				0962A1972AF66D6A00D689C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0962A19F2AF66D6B00D689C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0962A1A92AF66D6B00D689C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,9 +537,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0998C1E32ACB541B006BD5FD /* StartButtonStyle.swift in Sources */,
+				0998C1E72AD495F1006BD5FD /* AlarmList.swift in Sources */,
+				0998C1DB2ABCC48B006BD5FD /* TimerViewModel.swift in Sources */,
 				09621A702AB9CC8700764CC5 /* ContentView.swift in Sources */,
 				0932B3372ABC77F3001224A6 /* TimePickerView.swift in Sources */,
+				09FA6E5D2AE9F532004F452D /* AlarmButton.swift in Sources */,
+				0998C1E02ACB08E3006BD5FD /* Int+Extension.swift in Sources */,
+				0998C1DD2ACB0652006BD5FD /* CircularProgressView.swift in Sources */,
+				0998C1E52ACE0FA2006BD5FD /* CurrentTime.swift in Sources */,
+				09FA6E5F2AE9F9AB004F452D /* NapButton.swift in Sources */,
 				09621A6E2AB9CC8700764CC5 /* Cat_NapApp.swift in Sources */,
+				0941752B2AFE7AAC00CC61F7 /* CommonView.swift in Sources */,
+				0963337F2AE4046700DB179E /* Alarms.swift in Sources */,
+				0963337D2AE4043B00DB179E /* Naps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +571,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0962A18C2AF66D6900D689C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094175282AFE7A4500CC61F7 /* StartButtonStyle.swift in Sources */,
+				094175272AFE7A2C00CC61F7 /* TimerViewModel.swift in Sources */,
+				0962A1952AF66D6900D689C4 /* ContentView.swift in Sources */,
+				094175292AFE7A5600CC61F7 /* TimePickerView.swift in Sources */,
+				094175252AFE773C00CC61F7 /* NapButton.swift in Sources */,
+				0941752C2AFE7AAC00CC61F7 /* CommonView.swift in Sources */,
+				094175262AFE7A2700CC61F7 /* CircularProgressView.swift in Sources */,
+				0962A1932AF66D6900D689C4 /* CatNap_ClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0962A19D2AF66D6B00D689C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0962A1A62AF66D6B00D689C4 /* CatNap_ClipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0962A1A72AF66D6B00D689C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0962A1B02AF66D6B00D689C4 /* CatNap_ClipUITests.swift in Sources */,
+				0962A1B22AF66D6B00D689C4 /* CatNap_ClipUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -297,6 +615,21 @@
 			isa = PBXTargetDependency;
 			target = 09621A692AB9CC8700764CC5 /* Cat Nap */;
 			targetProxy = 09621A862AB9CC8900764CC5 /* PBXContainerItemProxy */;
+		};
+		0962A1A32AF66D6B00D689C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0962A18F2AF66D6900D689C4 /* CatNap Clip */;
+			targetProxy = 0962A1A22AF66D6B00D689C4 /* PBXContainerItemProxy */;
+		};
+		0962A1AD2AF66D6B00D689C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0962A18F2AF66D6900D689C4 /* CatNap Clip */;
+			targetProxy = 0962A1AC2AF66D6B00D689C4 /* PBXContainerItemProxy */;
+		};
+		0962A1B42AF66D6B00D689C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0962A18F2AF66D6900D689C4 /* CatNap Clip */;
+			targetProxy = 0962A1B32AF66D6B00D689C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,6 +746,7 @@
 		09621A902AB9CC8900764CC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Cat Nap/Cat_Nap.entitlements";
@@ -449,6 +783,7 @@
 		09621A912AB9CC8900764CC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Cat Nap/Cat_Nap.entitlements";
@@ -568,6 +903,180 @@
 			};
 			name = Release;
 		};
+		0962A1B72AF66D6B00D689C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CatNap Clip/CatNap_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatNap Clip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CatNap Clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cat Nap";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanvanbelkum.Cat-Nap.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0962A1B82AF66D6B00D689C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CatNap Clip/CatNap_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatNap Clip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CatNap Clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cat Nap";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanvanbelkum.Cat-Nap.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0962A1B92AF66D6B00D689C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanvanbelkum.Cat-Nap.CatNap-ClipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatNap Clip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatNap Clip";
+			};
+			name = Debug;
+		};
+		0962A1BA2AF66D6B00D689C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanvanbelkum.Cat-Nap.CatNap-ClipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatNap Clip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatNap Clip";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0962A1BB2AF66D6B00D689C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanvanbelkum.Cat-Nap.CatNap-ClipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CatNap Clip";
+			};
+			name = Debug;
+		};
+		0962A1BC2AF66D6B00D689C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanvanbelkum.Cat-Nap.CatNap-ClipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CatNap Clip";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -603,6 +1112,33 @@
 			buildConfigurations = (
 				09621A962AB9CC8900764CC5 /* Debug */,
 				09621A972AB9CC8900764CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0962A1BD2AF66D6B00D689C4 /* Build configuration list for PBXNativeTarget "CatNap Clip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0962A1B72AF66D6B00D689C4 /* Debug */,
+				0962A1B82AF66D6B00D689C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0962A1BE2AF66D6B00D689C4 /* Build configuration list for PBXNativeTarget "CatNap ClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0962A1B92AF66D6B00D689C4 /* Debug */,
+				0962A1BA2AF66D6B00D689C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0962A1BF2AF66D6B00D689C4 /* Build configuration list for PBXNativeTarget "CatNap ClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0962A1BB2AF66D6B00D689C4 /* Debug */,
+				0962A1BC2AF66D6B00D689C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
